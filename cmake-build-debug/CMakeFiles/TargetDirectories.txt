@@ -1,0 +1,3 @@
+/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="oxford_car_visualiser2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oxford_car_visualiser2">
+				<Option output="/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/oxford_car_visualiser2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/timfernandez/c++/oxford_car_visualiser2/includes"/>
+					<Add directory="/Users/timfernandez/c++/oxford_car_visualiser2/glfw"/>
+					<Add directory="/Users/timfernandez/c++/oxford_car_visualiser2/GLEW"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/Users/timfernandez/c++/oxford_car_visualiser2/includes/vendor/glm"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oxford_car_visualiser2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="oxford_car_visualiser2/fast">
+				<Option output="/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/oxford_car_visualiser2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/timfernandez/c++/oxford_car_visualiser2/includes"/>
+					<Add directory="/Users/timfernandez/c++/oxford_car_visualiser2/glfw"/>
+					<Add directory="/Users/timfernandez/c++/oxford_car_visualiser2/GLEW"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/Users/timfernandez/c++/oxford_car_visualiser2/includes/vendor/glm"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 oxford_car_visualiser2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/main.cpp">
+			<Option target="oxford_car_visualiser2"/>
+		</Unit>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/src/Renderer.cc">
+			<Option target="oxford_car_visualiser2"/>
+		</Unit>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/src/Shader.cc">
+			<Option target="oxford_car_visualiser2"/>
+		</Unit>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/src/point_cloud_builder.cc">
+			<Option target="oxford_car_visualiser2"/>
+		</Unit>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/../../../../usr/local/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/../../../../usr/local/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/../../../../usr/local/lib/cmake/glfw3/glfw3Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/Users/timfernandez/c++/oxford_car_visualiser2/../../../../usr/local/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\glfw3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
