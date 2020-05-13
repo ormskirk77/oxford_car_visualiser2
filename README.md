@@ -10,7 +10,7 @@ not the raw data in the .png files. It is noisy, and has not been
 cleaned in anyway. These are all things for the future. 
 
 You may need to zoom into the .gif below, but you can clearly see 
-pedestrians walking on the pavement, a truck, car and bus drive 
+pedestrians walking on the pavement, and a truck, car and bus drive 
 past. As well as definition on the buildings to the left of the 
 car (top of the screen) such as bay windows, a common feature of 
 UK buildings. The car is fitted with two LiDAR scanners and the below 
