@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /opt/clion-2020.1.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/timfernandez/c++/oxford_car_visualiser2
+CMAKE_SOURCE_DIR = /home/tim/CLionProjects/oxford_car_visualiser2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oxford_car_visualiser2.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/oxford_car_visualiser2.dir/flags.make
 
 CMakeFiles/oxford_car_visualiser2.dir/main.cpp.o: CMakeFiles/oxford_car_visualiser2.dir/flags.make
 CMakeFiles/oxford_car_visualiser2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oxford_car_visualiser2.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxford_car_visualiser2.dir/main.cpp.o -c /Users/timfernandez/c++/oxford_car_visualiser2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oxford_car_visualiser2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxford_car_visualiser2.dir/main.cpp.o -c /home/tim/CLionProjects/oxford_car_visualiser2/main.cpp
 
 CMakeFiles/oxford_car_visualiser2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxford_car_visualiser2.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timfernandez/c++/oxford_car_visualiser2/main.cpp > CMakeFiles/oxford_car_visualiser2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tim/CLionProjects/oxford_car_visualiser2/main.cpp > CMakeFiles/oxford_car_visualiser2.dir/main.cpp.i
 
 CMakeFiles/oxford_car_visualiser2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxford_car_visualiser2.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timfernandez/c++/oxford_car_visualiser2/main.cpp -o CMakeFiles/oxford_car_visualiser2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tim/CLionProjects/oxford_car_visualiser2/main.cpp -o CMakeFiles/oxford_car_visualiser2.dir/main.cpp.s
 
 CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o: CMakeFiles/oxford_car_visualiser2.dir/flags.make
 CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o: ../src/Shader.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o -c /Users/timfernandez/c++/oxford_car_visualiser2/src/Shader.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o -c /home/tim/CLionProjects/oxford_car_visualiser2/src/Shader.cc
 
 CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timfernandez/c++/oxford_car_visualiser2/src/Shader.cc > CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tim/CLionProjects/oxford_car_visualiser2/src/Shader.cc > CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.i
 
 CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timfernandez/c++/oxford_car_visualiser2/src/Shader.cc -o CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tim/CLionProjects/oxford_car_visualiser2/src/Shader.cc -o CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.s
 
 CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o: CMakeFiles/oxford_car_visualiser2.dir/flags.make
 CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o: ../src/Renderer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o -c /Users/timfernandez/c++/oxford_car_visualiser2/src/Renderer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o -c /home/tim/CLionProjects/oxford_car_visualiser2/src/Renderer.cc
 
 CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timfernandez/c++/oxford_car_visualiser2/src/Renderer.cc > CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tim/CLionProjects/oxford_car_visualiser2/src/Renderer.cc > CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.i
 
 CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timfernandez/c++/oxford_car_visualiser2/src/Renderer.cc -o CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tim/CLionProjects/oxford_car_visualiser2/src/Renderer.cc -o CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.s
 
 CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o: CMakeFiles/oxford_car_visualiser2.dir/flags.make
 CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o: ../src/point_cloud_builder.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o -c /Users/timfernandez/c++/oxford_car_visualiser2/src/point_cloud_builder.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o -c /home/tim/CLionProjects/oxford_car_visualiser2/src/point_cloud_builder.cc
 
 CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timfernandez/c++/oxford_car_visualiser2/src/point_cloud_builder.cc > CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tim/CLionProjects/oxford_car_visualiser2/src/point_cloud_builder.cc > CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.i
 
 CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timfernandez/c++/oxford_car_visualiser2/src/point_cloud_builder.cc -o CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tim/CLionProjects/oxford_car_visualiser2/src/point_cloud_builder.cc -o CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.s
 
 # Object files for target oxford_car_visualiser2
 oxford_car_visualiser2_OBJECTS = \
@@ -124,9 +124,15 @@ oxford_car_visualiser2: CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o
 oxford_car_visualiser2: CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o
 oxford_car_visualiser2: CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o
 oxford_car_visualiser2: CMakeFiles/oxford_car_visualiser2.dir/build.make
-oxford_car_visualiser2: /usr/local/lib/libglfw.3.3.dylib
+oxford_car_visualiser2: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
+oxford_car_visualiser2: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+oxford_car_visualiser2: /usr/lib/x86_64-linux-gnu/libGLX.so
+oxford_car_visualiser2: /usr/lib/x86_64-linux-gnu/libGLU.so
+oxford_car_visualiser2: /usr/lib/x86_64-linux-gnu/libglut.so
+oxford_car_visualiser2: /usr/lib/x86_64-linux-gnu/libXmu.so
+oxford_car_visualiser2: /usr/lib/x86_64-linux-gnu/libXi.so
 oxford_car_visualiser2: CMakeFiles/oxford_car_visualiser2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable oxford_car_visualiser2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable oxford_car_visualiser2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oxford_car_visualiser2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +145,6 @@ CMakeFiles/oxford_car_visualiser2.dir/clean:
 .PHONY : CMakeFiles/oxford_car_visualiser2.dir/clean
 
 CMakeFiles/oxford_car_visualiser2.dir/depend:
-	cd /Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timfernandez/c++/oxford_car_visualiser2 /Users/timfernandez/c++/oxford_car_visualiser2 /Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug /Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug /Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tim/CLionProjects/oxford_car_visualiser2 /home/tim/CLionProjects/oxford_car_visualiser2 /home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug /home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug /home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/oxford_car_visualiser2.dir/depend
 

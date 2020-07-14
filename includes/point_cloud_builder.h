@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <time.h>
+#include <vector>
 
 /*
  *  Use this class to load LiDAR binary files from the Oxford RobotCar dataset.

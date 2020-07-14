@@ -53,15 +53,15 @@ float* PointCloudBuilder::getPointCLoud(const std::string& filename) {
 }
 
 // Convert LiDAR filename to the time when it was taken.
-std::string PointCloudBuilder::convertTime(const std::string &timeForConversion) {
-
-    std::string stringUnixTime = timeForConversion.substr(0, 15);
-    time_t rawtime;
-    rawtime = posix2time(std::stoi(stringUnixTime));
-
-    return ctime(&rawtime);
-
-}
+//std::string PointCloudBuilder::convertTime(const std::string &timeForConversion) {
+//
+//    std::string stringUnixTime = timeForConversion.substr(0, 15);
+//    time_t rawtime;
+//    rawtime = posix2time(std::stoi(stringUnixTime));
+//
+//    return ctime(&rawtime);
+//
+//}
 
 // Takes a string reference to the file.
 // Returns number of coordinates in a binary file.

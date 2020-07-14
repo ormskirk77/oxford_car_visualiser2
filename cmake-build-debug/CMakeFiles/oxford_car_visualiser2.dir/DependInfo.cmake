@@ -4,21 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/timfernandez/c++/oxford_car_visualiser2/main.cpp" "/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/main.cpp.o"
-  "/Users/timfernandez/c++/oxford_car_visualiser2/src/Renderer.cc" "/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o"
-  "/Users/timfernandez/c++/oxford_car_visualiser2/src/Shader.cc" "/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o"
-  "/Users/timfernandez/c++/oxford_car_visualiser2/src/point_cloud_builder.cc" "/Users/timfernandez/c++/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o"
+  "/home/tim/CLionProjects/oxford_car_visualiser2/main.cpp" "/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/main.cpp.o"
+  "/home/tim/CLionProjects/oxford_car_visualiser2/src/Renderer.cc" "/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/src/Renderer.cc.o"
+  "/home/tim/CLionProjects/oxford_car_visualiser2/src/Shader.cc" "/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/src/Shader.cc.o"
+  "/home/tim/CLionProjects/oxford_car_visualiser2/src/point_cloud_builder.cc" "/home/tim/CLionProjects/oxford_car_visualiser2/cmake-build-debug/CMakeFiles/oxford_car_visualiser2.dir/src/point_cloud_builder.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../includes"
   "../glfw"
   "../GLEW"
-  "/usr/local/Cellar/glfw/3.3.2/include"
+  "../includes"
   "../includes/vendor/glm"
-  "/usr/local/include"
   )
 
 # Targets to which this target links.
